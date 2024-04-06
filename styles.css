@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    font-family: monospace;
+}
+
+.outer-boundary {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 5px;
+    gap: 5px;
+    border: 2px solid black;
+    border-radius: 2px;
+    border-top-color: grey;
+    border-left-color: grey;
+    background-color: black;
+}
+
+.display-container div {
+    background-color: #b2b9b7;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    width: auto;
+}
+
+.display {
+    height: 90px;
+    margin-bottom: 6px;
+    font-size: 80px;
+}
+
+.date {
+    height: 40px;
+    font-size: 30px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.button-row {
+    display: flex;
+    gap: 2px;
+}
+
+.button {
+    flex-grow: 1;
+    width: 100px;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 5%;
+    border: none;
+}
+
+.operator-btn,
+.equal-btn {
+    background-color: #FF8F1F;
+}
+
+#clear,
+#delete,
+#percent,
+#opposite {
+    background-color: dodgerblue;
+}
+
+.number-btn,
+.decimal-btn {
+    background-color: #217C7E;
+}
